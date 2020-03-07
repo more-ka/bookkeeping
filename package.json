@@ -1,0 +1,14 @@
+{
+  "name": "bookkeeping",
+  "version": "1.0.0",
+  "description": "一个基于vue的记账本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
+}
