@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-03-07 21:31:03
- * @LastEditTime: 2020-03-08 00:02:05
+ * @LastEditTime: 2020-03-08 14:47:54
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \bookkeeping\bill.html
@@ -11,7 +11,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>统计</title>
   <style>
     *{
       padding: 0;
@@ -21,6 +21,7 @@
       max-width: 440px;
       height: calc(100vh - 48px);
       background: #ffffff;
+      margin:auto;
     }
     header{
       display: flex;
@@ -91,14 +92,16 @@
     }
     .item .row{
       display: flex;
+      justify-content: space-between;
       flex-direction: row;
     }
     .item .row div{
-      display: flex;
       flex: 1;
     }
     .item .row div:last-child{
-      text-align: right;
+      text-align: right !important;
+  text-align:right;
+      text-align: center;
     }
     
   </style>
@@ -129,6 +132,22 @@
           </div>
           <div class="row">
             <div>吃饭</div>
+            <div>¥12</div>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <div class="time">
+          <div>昨天</div>
+          <div>¥24</div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div>外卖</div>
+            <div>¥12</div>
+          </div>
+          <div class="row">
+            <div>购物</div>
             <div>¥12</div>
           </div>
         </div>
